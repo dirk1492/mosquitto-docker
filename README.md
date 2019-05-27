@@ -1,7 +1,8 @@
 # Mosquitto docker
-Latest version of official eclipse-mosquitto container extended with envsubst varibles substitusion.
 
-An exiting file /mosquitto/config/mosquitto.conf.in will be substitute to /mosquitto/config/mosquitto.conf.
+Latest version of official [eclipse-mosquitto](https://hub.docker.com/_/eclipse-mosquitto) container extended with **envsubst** variables substitution.
+
+An exiting file /mosquitto/config/mosquitto.conf.in will be substituted to /mosquitto/config/mosquitto.conf.
 
 Example:
 
