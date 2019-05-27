@@ -14,7 +14,7 @@ steps:
   displayName: 'Build docker container'  
   inputs:
     containerRegistry: 'dockerhub'
-    repository: 'mosquitto'
+    repository: 'dil001/mosquitto'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: |
