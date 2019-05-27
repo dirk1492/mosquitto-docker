@@ -29,4 +29,5 @@ steps:
     Dockerfile: '**/Dockerfile'
     tags: |
       $(version)
+      $(version).$(Build.SourceVersion)
       latest
